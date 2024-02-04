@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">رشد و تعالی فردی</string>
+    <string name="title_activity_jalasat">JalasatActivity</string>
+    <string name="tab_text_1">جلسات حضوری</string>
+    <string name="tab_text_2">جلسات آنلاین</string>
+    <string name="tab_text_3">مورد علاقه من</string>
+    <string name="tab_text_4">همه</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
