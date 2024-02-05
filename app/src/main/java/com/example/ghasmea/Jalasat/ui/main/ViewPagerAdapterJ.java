@@ -1,5 +1,4 @@
 package com.example.ghasmea.Jalasat.ui.main;
-
 import android.content.Context;
 
 import androidx.annotation.NonNull;
@@ -11,7 +10,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.ghasmea.Jalasat.*;
+import com.example.ghasmea.Jalasat.fragment.*;
 import com.example.ghasmea.R;
 
 /**
@@ -27,29 +26,23 @@ public class ViewPagerAdapterJ extends FragmentStateAdapter {
         super(fragmentManager, lifecycle);
     }
 
-/*    @Override
-    public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment.
-        return PlaceholderFragment.newInstance(position + 1);
-    }*/
-
-/*    @Nullable
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return mContext.getResources().getString(TAB_TITLES[position]);
-    }*/
-
-/*    @Override
-    public int getCount() {
-        // Show 2 total pages.
-        return 3;
-    }*/
 
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-        return PlaceholderFragment.newInstance(position + 1);
+
+        Fragment fragment;
+
+        switch (position)
+        {
+            case 0: fragment = JInPersonFragment.newInstance(); break;
+            case 1: fragment = JOnlineFragment.newInstance(); break;
+            case 2: fragment = new JFavFragment(); break;
+            case 3: fragment =  JAllFragment.newInstance(); break;
+            default: return null;
+        }
+
+        return fragment;
     }
 
     @Override

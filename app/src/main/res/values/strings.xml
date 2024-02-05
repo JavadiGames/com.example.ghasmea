@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">رشد و تعالی فردی</string>
+    <string name="app_name">روش تعالی فردی</string>
     <string name="title_activity_jalasat">JalasatActivity</string>
     <string name="tab_text_1">جلسات حضوری</string>
     <string name="tab_text_2">جلسات آنلاین</string>

@@ -21,7 +21,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.example.ghasmea.databinding.ActivityJalasatBinding;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-public class JalasatActivity extends AppCompatActivity {
+public class    JalasatActivity extends AppCompatActivity {
 
     private ActivityJalasatBinding binding;
 

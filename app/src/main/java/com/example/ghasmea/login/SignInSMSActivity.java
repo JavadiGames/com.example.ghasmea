@@ -31,6 +31,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Hashtable;
 import java.util.Map;
 
+
 public class SignInSMSActivity extends AppCompatActivity {
 
     EditText edt_phone, edt_code;
@@ -163,7 +164,7 @@ public class SignInSMSActivity extends AppCompatActivity {
                 params.put("UserName", parameters.USERNAME);
                 params.put("Password", parameters.PASSWORD);
                 params.put("Mobile", mobile);
-                params.put("Footer", "رشد و تعالی فردی");
+                params.put("Footer", "روش تعالی فردی");
 
                 return params;
             }

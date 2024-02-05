@@ -14,9 +14,8 @@ import com.example.ghasmea.R;
 public class JOnlineFragment extends Fragment {
 
 
-    public JOnlineFragment() {
-        // Required empty public constructor
-    }
+    public static JOnlineFragment newInstance() {return new JOnlineFragment();}
+
 
 
     @Override

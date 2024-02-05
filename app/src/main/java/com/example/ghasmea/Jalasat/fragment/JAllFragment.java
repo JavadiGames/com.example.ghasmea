@@ -14,10 +14,7 @@ import com.example.ghasmea.R;
 public class JAllFragment extends Fragment {
 
 
-    public JAllFragment() {
-        // Required empty public constructor
-    }
-
+    public static JAllFragment newInstance() {return new JAllFragment();}
 
 
     @Override

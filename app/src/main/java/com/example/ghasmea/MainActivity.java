@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ghasmea.Jalasat.JalasatActivity;
-import com.example.ghasmea.login.SignInSMSActivity;
+import com.example.ghasmea.login.*;
 
 public class MainActivity extends AppCompatActivity {
 

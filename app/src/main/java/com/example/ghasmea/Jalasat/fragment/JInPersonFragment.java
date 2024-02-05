@@ -14,11 +14,11 @@ import com.example.ghasmea.R;
 public class JInPersonFragment extends Fragment {
 
 
-    public JInPersonFragment() {
+/*    public JInPersonFragment() {  \\ no need for the constructor because of the new instance method
         // Required empty public constructor
-    }
+    }*/
 
-
+    public static JInPersonFragment newInstance() {return new JInPersonFragment();}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
